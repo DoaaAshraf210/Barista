@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barista</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--bootstrap -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="css/normalized.css" />
+    <link rel="stylesheet" href="css/barista.css" />
+    <!--my file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container py-3 px-4">
+          <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+            <img
+              src="images/logo.png"
+              alt="Logo"
+              width="40"
+              class="d-inline-block align-text-top me-2"
+            />
+            Barista.co
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main"
+            aria-controls="main"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold ps-4 ms-4 p-lg-2 m-lg-2"
+                  aria-current="page"
+                  href="index.html"
+                  >Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold ps-4 ms-4 p-lg-2 m-lg-2"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold ps-4 ms-4 p-lg-2 m-lg-2"
+                  href="#"
+                  >Our Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold ps-4 ms-4 p-lg-2 m-lg-2"
+                  href="#"
+                  >Reviews</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fw-bold ps-4 ms-4 p-lg-2 m-lg-2"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a
+              class="fw-bold active text-white py-2 px-4 rounded-pill ps-4 ms-4 mb-2 d-block"
+              href="reservation.html"
+              >Reservation
+              <i
+                class="fa-solid fa-arrow-left-long text-white"
+                style="transform: rotate(135deg)"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12 col-sm-12 p-5">
+            <div class="heading text-center mb-5">
+              <em>Fill out the booking form</em>
+              <h2>Book a table</h2>
+            </div>
+            <form>
+              <div class="concatenate">
+                <input type="text" placeholder="Full Name" />
+                <input type="tel" placeholder="Phone: 0854567890" />
+              </div>
+              <div class="concatenate">
+                <input type="time" value="18:30" />
+                <input type="date" value="mm/dd/yyyy" />
+              </div>
+              <input type="number" placeholder="Number Of People" />
+              <textarea
+                placeholder="Comment(Optional)"
+                style="height: 140px"
+              ></textarea>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 p-0 me-auto">
+            <div class="image">
+              <img src="images/barman-with-fruits.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row mb-2">
+          <div
+            class="foot-col col-lg-4 col-md-12 col-sm-12 mt-md-3 mt-sm-3 p-0"
+          >
+            <div class="left">
+              <em>Where to find us?</em>
+              <address class="d-flex gap-3 fw-bold">
+                <i class="fa-solid fa-location-dot"></i>
+                Bandra West, Mumbai, Maharashtra
+                <br />
+                400050, India
+              </address>
+              <div class="icons py-2 d-flex align-items-center gap-5">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="foot-col col-lg-3 col-md-12 col-sm-12 mt-md-3 mt-sm-3 p-0"
+          >
+            <div class="center">
+              <em>Contact</em>
+              <div>
+                <strong>Phone:</strong>
+                <a href="tel:+(65) 305 2409 671">(65) 305 2409 671</a>
+              </div>
+              <div>
+                <strong>Email:</strong>
+                <a href="mailto:hello@barista.co">hello@barista.co</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="foot-col right col-lg-5 col-md-12 col-sm-12 mt-md-3 mt-sm-3 p-0"
+          >
+            <em>Opening Hours.</em>
+            <ul class="p-0">
+              <li class="d-flex">
+                Monday - Friday
+                <div class="underline"></div>
+                <strong>9:00 - 18:00</strong>
+              </li>
+              <li class="d-flex">
+                Saturday
+                <div class="underline"></div>
+                <strong>11:00 - 16:30</strong>
+              </li>
+              <li class="d-flex">
+                Sunday
+                <div class="underline"></div>
+                <strong>Closed</strong>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright text-center fw-lighter">
+          Copyright &copy; Barista Cafe 2048 - Design:
+          <a href="https://www.tooplate.com">Tooplate</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
